@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondomonserrate"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    tools:context=".fragments.MonserrateFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="306dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="10dp"
+        android:baselineAligned="false"
+        android:src="@drawable/monserrate"
+        app:layout_constraintTop_toBottomOf="@+id/titulo1"
+        tools:layout_editor_absoluteX="38dp" />
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="225dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="104dp"
+        android:fontFamily="casual"
+        android:text="Monserrate"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/informacionM"
+        android:layout_width="336dp"
+        android:layout_height="298dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/el_cerro_de_monserrate_es_el_m_s_conocido_de_los_cerros_orientales_de_bogot_junto_a_guadalupe_es_uno_de_los_cerros_tutelares_de_la_ciudad_monserrate_tiene_una_altitud_de_3152_m_y_se_ubica_sobre_la_cordillera_oriental_1_los_cerros_de_bogot_de_origen_sedimentario_tienen_por_lo_menos_16_millones_de_a_os_de_antig_edad_con_rocas_de_edad_cret_cica_pertenecientes_al_grupo_guadalupe_en_lo_que_se_refiere_al_aspecto_geol_gico_hasta_mediados_del_siglo_xvii_fue_conocido_como_cerro_de_las_nieves_la_bas_lica_del_se_or_de_monserrate_ha_sido_lugar_de_peregrinaci_n_religiosa_desde_la_poca_colonial_y_se_constituye_en_un_atractivo_natural_religioso_gastron_mico_de_la_ciudad_se_puede_ascender_al_cerro_por_el_sendero_peatonal_por_telef_rico_o_por_funicular"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_Monserrate"
+        android:layout_width="123dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="24dp"
+        android:background="#AFEEEE"
+        android:fontFamily="casual"
+        android:text="Solicitar Guia"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/informacionM" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

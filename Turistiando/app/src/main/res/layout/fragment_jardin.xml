@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondojardin"
+    tools:context=".fragments.JardinFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="306dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="49dp"
+        android:src="@drawable/monserrate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo1" />
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="225dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="201dp"
+        android:fontFamily="casual"
+        android:text="Monserrate"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/informacionM"
+        android:layout_width="384dp"
+        android:layout_height="267dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="14dp"
+        android:fontFamily="sans-serif"
+        android:text="El cerro de Monserrate es el más conocido de los cerros Orientales de Bogotá. Junto a Guadalupe es uno de los cerros tutelares de la ciudad. Monserrate tiene una altitud de 3152 m y se ubica sobre la cordillera oriental.1​Los cerros de Bogotá, de origen sedimentario, tienen por lo menos 16 millones de años de antigüedad, con rocas de edad cretácica pertenecientes al Grupo guadalupe, en lo que se refiere al aspecto geológico. Hasta mediados del siglo XVII fue conocido como cerro de Las Nieves. La basílica del Señor de Monserrate ha sido lugar de peregrinación religiosa desde la época colonial y se constituye en un atractivo natural, religioso, gastronómico de la ciudad. Se puede ascender al cerro por el sendero peatonal, por teleférico o por funicular."
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_Monserrate"
+        android:layout_width="98dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="146dp"
+        android:background="#AFEEEE"
+        android:fontFamily="casual"
+        android:text="Solicitar Guia"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/informacionM" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="36dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="188dp"
+        android:src="@drawable/maps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Monserrate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,152 @@
+{UTF-8}
+"%potenciales"=
+	Potenciales Adoptadores/Poblacion total
+	~	
+	~		|
+
+Potenciales Adoptadores= INTEG (
+	-tasa adopcion,
+		99999)
+	~	
+	~		|
+
+"%adoptadores"=
+	Adoptadores/Poblacion total
+	~	
+	~		|
+
+Adopcion por publicidad=
+	Efectividad de la Publicidad*Potenciales Adoptadores
+	~	
+	~		|
+
+Adopcion por voz a voz=
+	Tasa contacto*Fraccion de adopcion*Potenciales Adoptadores*Adoptadores/Poblacion total
+	~	
+	~		|
+
+Adoptadores= INTEG (
+	tasa adopcion,
+		1)
+	~	
+	~		|
+
+Efectividad de la Publicidad=
+	0.1
+	~	
+	~		|
+
+Fraccion de adopcion=
+	1
+	~	
+	~		|
+
+Poblacion total=
+	100000
+	~	
+	~		|
+
+tasa adopcion=
+	Adopcion por publicidad+Adopcion por voz a voz
+	~	
+	~		|
+
+Tasa contacto=
+	2
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 7
+	~	Year
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Year
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Year [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 0.0078125
+	~	Year [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|255-255-255|96,96,100,0
+10,1,Potenciales Adoptadores,212,92,76,31,3,131,0,0,0,0,0,0,0,0,0,0,0,0
+10,2,Adoptadores,477,92,51,28,3,131,0,0,0,0,0,0,0,0,0,0,0,0
+1,3,5,2,4,0,0,22,0,0,0,-1--1--1,,1|(395,92)|
+1,4,5,1,100,0,0,22,0,0,0,-1--1--1,,1|(320,92)|
+11,5,310,356,92,8,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,6,tasa adopcion,356,111,44,11,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,7,Adopcion por publicidad,236,187,45,19,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,8,Efectividad de la Publicidad,237,297,53,19,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,9,Adopcion por voz a voz,451,207,60,19,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,10,Tasa contacto,537,296,45,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,11,Fraccion de adopcion,613,205,39,19,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,12,Poblacion total,652,148,47,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,13,1,7,1,0,0,0,0,64,0,-1--1--1,,1|(137,149)|
+1,14,8,7,0,0,0,0,0,64,0,-1--1--1,,1|(236,248)|
+1,15,7,6,1,0,0,0,0,64,0,-1--1--1,,1|(323,164)|
+1,16,9,6,1,0,0,0,0,64,0,-1--1--1,,1|(368,172)|
+1,17,1,9,1,0,0,0,0,64,0,-1--1--1,,1|(56,227)|
+1,18,10,9,0,0,0,0,0,64,0,-1--1--1,,1|(504,260)|
+1,19,11,9,0,0,0,0,0,64,0,-1--1--1,,1|(549,205)|
+1,20,12,9,0,0,0,0,0,64,0,-1--1--1,,1|(569,172)|
+1,21,2,9,1,0,0,0,0,64,0,-1--1--1,,1|(497,153)|
+10,22,"%adoptadores",640,68,47,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,23,2,22,0,0,0,0,0,64,0,-1--1--1,,1|(553,80)|
+1,24,12,22,0,0,0,0,0,64,0,-1--1--1,,1|(647,116)|
+10,25,"%potenciales",128,28,44,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,26,1,25,0,0,0,0,0,64,0,-1--1--1,,1|(161,53)|
+1,27,12,25,1,0,0,0,0,64,0,-1--1--1,,1|(476,39)|
+///---\\\
+:L<%^E!@
+1:Current.vdfx
+4:Time
+5:"%potenciales"
+9:Current
+19:100,0
+24:0
+25:7
+26:7
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:0
+72:0
+73:0
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:0
+41:0
+95:0
+96:0
+77:0
+78:0
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/drawable/button_rounded_register.xml" value="0.1" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/font/font.xml" value="0.1" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.13119143239625167" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout-w936dp/activity_login.xml" value="0.153125" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/activity_contenedor.xml" value="0.15942028985507245" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/activity_contenedor_instrucciones.xml" value="0.20416666666666666" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/activity_inicio.xml" value="0.20416666666666666" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/activity_load.xml" value="0.1" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/activity_login.xml" value="0.22698320787492762" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/elemento.xml" value="0.13994565217391305" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/fragment_1.xml" value="0.1" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/fragment_candelaria.xml" value="0.1" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/fragment_contenedor.xml" value="0.22" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/fragment_contenedor2.xml" value="0.1" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/fragment_contenedor_instrucciones.xml" value="0.1" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/fragment_first.xml" value="0.13994565217391305" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/fragment_inicio.xml" value="0.25" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/fragment_jardin.xml" value="0.1933876811594203" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/fragment_monserrate.xml" value="0.25" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/layout/fragment_tequendama.xml" value="0.1933876811594203" />
+        <entry key="..\:/Programacion/Turistiando/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

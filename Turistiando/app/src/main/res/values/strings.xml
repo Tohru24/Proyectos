@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Turistiando</string>
+    <string name="title_activity_login">login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_contenedor">ContenedorActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_contenedor_instrucciones">ContenedorInstrucciones</string>
+    <string name="el_cerro_de_monserrate_es_el_m_s_conocido_de_los_cerros_orientales_de_bogot_junto_a_guadalupe_es_uno_de_los_cerros_tutelares_de_la_ciudad_monserrate_tiene_una_altitud_de_3152_m_y_se_ubica_sobre_la_cordillera_oriental_1_los_cerros_de_bogot_de_origen_sedimentario_tienen_por_lo_menos_16_millones_de_a_os_de_antig_edad_con_rocas_de_edad_cret_cica_pertenecientes_al_grupo_guadalupe_en_lo_que_se_refiere_al_aspecto_geol_gico_hasta_mediados_del_siglo_xvii_fue_conocido_como_cerro_de_las_nieves_la_bas_lica_del_se_or_de_monserrate_ha_sido_lugar_de_peregrinaci_n_religiosa_desde_la_poca_colonial_y_se_constituye_en_un_atractivo_natural_religioso_gastron_mico_de_la_ciudad_se_puede_ascender_al_cerro_por_el_sendero_peatonal_por_telef_rico_o_por_funicular">El cerro de Monserrate es el más conocido de los cerros Orientales de Bogotá. Junto a Guadalupe es uno de los cerros tutelares de la ciudad. Monserrate tiene una altitud de 3152 m y se ubica sobre la cordillera oriental.1​Los cerros de Bogotá, de origen sedimentario, tienen por lo menos 16 millones de años de antigüedad, con rocas de edad cretácica pertenecientes al Grupo guadalupe, en lo que se refiere al aspecto geológico. Hasta mediados del siglo XVII fue conocido como cerro de Las Nieves. La basílica del Señor de Monserrate ha sido lugar de peregrinación religiosa desde la época colonial y se constituye en un atractivo natural, religioso, gastronómico de la ciudad. Se puede ascender al cerro por el sendero peatonal, por teleférico o por funicular.</string>
+</resources>
